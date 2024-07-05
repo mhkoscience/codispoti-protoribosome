@@ -1,0 +1,125 @@
+;
+;	File 'topol_Ion_chain_X.itp' was generated
+;	By user: unknown (1000)
+;	On host: datel
+;	At date: Tue Oct 31 09:29:06 2023
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2019.6 (-:
+;	
+;	Executable:   /home/mhk/Programs/gromacs/gromacs-2019.6/gcc-9.3/bin/gmx
+;	Data prefix:  /home/mhk/Programs/gromacs/gromacs-2019.6/gcc-9.3
+;	Working dir:  /home/mhk/W/STUDENTS/MARTIN/PTC-SMALL-FIX-L2/BUILD
+;	Command line:
+;	  gmx pdb2gmx -f /home/mhk/W/STUDENTS/MARTIN/PTC-SMALL-FIX-L2/INPUT/PTC_chainB.pdb -o /home/mhk/W/STUDENTS/MARTIN/PTC-SMALL-FIX-L2/BUILD/PTC_pdb2gmx.pdb -water spce -ff amberRibo -vsite hydrogens -ignh
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion_chain_X         3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 MG  rtp MG   q +2.0
+     1         MG      1     MG     MG      1          2     24.305   ; qtot 2
+; residue   2 MG  rtp MG   q +2.0
+     2         MG      2     MG     MG      2          2     24.305   ; qtot 4
+; residue   3 MG  rtp MG   q +2.0
+     3         MG      3     MG     MG      3          2     24.305   ; qtot 6
+; residue   4 MG  rtp MG   q +2.0
+     4         MG      4     MG     MG      4          2     24.305   ; qtot 8
+; residue   5 MG  rtp MG   q +2.0
+     5         MG      5     MG     MG      5          2     24.305   ; qtot 10
+; residue   6 MG  rtp MG   q +2.0
+     6         MG      6     MG     MG      6          2     24.305   ; qtot 12
+; residue   7 MG  rtp MG   q +2.0
+     7         MG      7     MG     MG      7          2     24.305   ; qtot 14
+; residue   8 MG  rtp MG   q +2.0
+     8         MG      8     MG     MG      8          2     24.305   ; qtot 16
+; residue   9 MG  rtp MG   q +2.0
+     9         MG      9     MG     MG      9          2     24.305   ; qtot 18
+; residue  10 MG  rtp MG   q +2.0
+    10         MG     10     MG     MG     10          2     24.305   ; qtot 20
+; residue  11 MG  rtp MG   q +2.0
+    11         MG     11     MG     MG     11          2     24.305   ; qtot 22
+; residue  12 MG  rtp MG   q +2.0
+    12         MG     12     MG     MG     12          2     24.305   ; qtot 24
+; residue  13 MG  rtp MG   q +2.0
+    13         MG     13     MG     MG     13          2     24.305   ; qtot 26
+; residue  14 MG  rtp MG   q +2.0
+    14         MG     14     MG     MG     14          2     24.305   ; qtot 28
+; residue  15 MG  rtp MG   q +2.0
+    15         MG     15     MG     MG     15          2     24.305   ; qtot 30
+; residue  16 MG  rtp MG   q +2.0
+    16         MG     16     MG     MG     16          2     24.305   ; qtot 32
+; residue  17 MG  rtp MG   q +2.0
+    17         MG     17     MG     MG     17          2     24.305   ; qtot 34
+; residue  18 MG  rtp MG   q +2.0
+    18         MG     18     MG     MG     18          2     24.305   ; qtot 36
+; residue  19 MG  rtp MG   q +2.0
+    19         MG     19     MG     MG     19          2     24.305   ; qtot 38
+; residue  20 MG  rtp MG   q +2.0
+    20         MG     20     MG     MG     20          2     24.305   ; qtot 40
+; residue  21 MG  rtp MG   q +2.0
+    21         MG     21     MG     MG     21          2     24.305   ; qtot 42
+; residue  22 MG  rtp MG   q +2.0
+    22         MG     22     MG     MG     22          2     24.305   ; qtot 44
+; residue  23 MG  rtp MG   q +2.0
+    23         MG     23     MG     MG     23          2     24.305   ; qtot 46
+; residue  24 MG  rtp MG   q +2.0
+    24         MG     24     MG     MG     24          2     24.305   ; qtot 48
+; residue  25 MG  rtp MG   q +2.0
+    25         MG     25     MG     MG     25          2     24.305   ; qtot 50
+; residue  26 MG  rtp MG   q +2.0
+    26         MG     26     MG     MG     26          2     24.305   ; qtot 52
+; residue  27 MG  rtp MG   q +2.0
+    27         MG     27     MG     MG     27          2     24.305   ; qtot 54
+; residue  28 MG  rtp MG   q +2.0
+    28         MG     28     MG     MG     28          2     24.305   ; qtot 56
+; residue  29 MG  rtp MG   q +2.0
+    29         MG     29     MG     MG     29          2     24.305   ; qtot 58
+; residue  30 MG  rtp MG   q +2.0
+    30         MG     30     MG     MG     30          2     24.305   ; qtot 60
+; residue  31 MG  rtp MG   q +2.0
+    31         MG     31     MG     MG     31          2     24.305   ; qtot 62
+; residue  32 MG  rtp MG   q +2.0
+    32         MG     32     MG     MG     32          2     24.305   ; qtot 64
+; residue  33 MG  rtp MG   q +2.0
+    33         MG     33     MG     MG     33          2     24.305   ; qtot 66
+; residue  34 MG  rtp MG   q +2.0
+    34         MG     34     MG     MG     34          2     24.305   ; qtot 68
+; residue  35 MG  rtp MG   q +2.0
+    35         MG     35     MG     MG     35          2     24.305   ; qtot 70
+; residue  36 MG  rtp MG   q +2.0
+    36         MG     36     MG     MG     36          2     24.305   ; qtot 72
+; residue  37 MG  rtp MG   q +2.0
+    37         MG     37     MG     MG     37          2     24.305   ; qtot 74
+; residue  38 MG  rtp MG   q +2.0
+    38         MG     38     MG     MG     38          2     24.305   ; qtot 76
+; residue  39 MG  rtp MG   q +2.0
+    39         MG     39     MG     MG     39          2     24.305   ; qtot 78
+; residue  40 MG  rtp MG   q +2.0
+    40         MG     40     MG     MG     40          2     24.305   ; qtot 80
+; residue  41 MG  rtp MG   q +2.0
+    41         MG     41     MG     MG     41          2     24.305   ; qtot 82
+; residue  42 MG  rtp MG   q +2.0
+    42         MG     42     MG     MG     42          2     24.305   ; qtot 84
+; residue  43 MG  rtp MG   q +2.0
+    43         MG     43     MG     MG     43          2     24.305   ; qtot 86
+; residue  44 MG  rtp MG   q +2.0
+    44         MG     44     MG     MG     44          2     24.305   ; qtot 88
+; residue  45 MG  rtp MG   q +2.0
+    45         MG     45     MG     MG     45          2     24.305   ; qtot 90
+; residue  46 MG  rtp MG   q +2.0
+    46         MG     46     MG     MG     46          2     24.305   ; qtot 92
+; residue  47 MG  rtp MG   q +2.0
+    47         MG     47     MG     MG     47          2     24.305   ; qtot 94
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion_chain_X.itp"
+#endif
+

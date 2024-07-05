@@ -1,0 +1,343 @@
+;
+;	File 'topol_Ion_chain_X.itp' was generated
+;	By user: unknown (1000)
+;	On host: datel
+;	At date: Sat Oct 21 20:37:36 2023
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2019.6 (-:
+;	
+;	Executable:   /home/mhk/Programs/gromacs/gromacs-2019.6/gcc-9.3/bin/gmx
+;	Data prefix:  /home/mhk/Programs/gromacs/gromacs-2019.6/gcc-9.3
+;	Working dir:  /home/mhk/W/STUDENTS/MARTIN/PTC-LARGE-FIX/BUILD
+;	Command line:
+;	  gmx pdb2gmx -f /home/mhk/W/STUDENTS/MARTIN/PTC-LARGE-FIX/BUILD/PTC_chainB.pdb -o /home/mhk/W/STUDENTS/MARTIN/PTC-LARGE-FIX/BUILD/PTC_pdb2gmx.pdb -water spce -ff amberRibo -vsite hydrogens -ignh
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion_chain_X         3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 101 MG  rtp MG   q +2.0
+     1         MG    101     MG     MG      1          2     24.305   ; qtot 2
+; residue 3008 MG  rtp MG   q +2.0
+     2         MG   3008     MG     MG      2          2     24.305   ; qtot 4
+; residue 3060 MG  rtp MG   q +2.0
+     3         MG   3060     MG     MG      3          2     24.305   ; qtot 6
+; residue 3086 MG  rtp MG   q +2.0
+     4         MG   3086     MG     MG      4          2     24.305   ; qtot 8
+; residue 3138 MG  rtp MG   q +2.0
+     5         MG   3138     MG     MG      5          2     24.305   ; qtot 10
+; residue 3268 MG  rtp MG   q +2.0
+     6         MG   3268     MG     MG      6          2     24.305   ; qtot 12
+; residue 3399 MG  rtp MG   q +2.0
+     7         MG   3399     MG     MG      7          2     24.305   ; qtot 14
+; residue 3009 MG  rtp MG   q +2.0
+     8         MG   3009     MG     MG      8          2     24.305   ; qtot 16
+; residue 3035 MG  rtp MG   q +2.0
+     9         MG   3035     MG     MG      9          2     24.305   ; qtot 18
+; residue 3061 MG  rtp MG   q +2.0
+    10         MG   3061     MG     MG     10          2     24.305   ; qtot 20
+; residue 3113 MG  rtp MG   q +2.0
+    11         MG   3113     MG     MG     11          2     24.305   ; qtot 22
+; residue 3139 MG  rtp MG   q +2.0
+    12         MG   3139     MG     MG     12          2     24.305   ; qtot 24
+; residue 3191 MG  rtp MG   q +2.0
+    13         MG   3191     MG     MG     13          2     24.305   ; qtot 26
+; residue 3269 MG  rtp MG   q +2.0
+    14         MG   3269     MG     MG     14          2     24.305   ; qtot 28
+; residue 3400 MG  rtp MG   q +2.0
+    15         MG   3400     MG     MG     15          2     24.305   ; qtot 30
+; residue 3062 MG  rtp MG   q +2.0
+    16         MG   3062     MG     MG     16          2     24.305   ; qtot 32
+; residue 3114 MG  rtp MG   q +2.0
+    17         MG   3114     MG     MG     17          2     24.305   ; qtot 34
+; residue 3140 MG  rtp MG   q +2.0
+    18         MG   3140     MG     MG     18          2     24.305   ; qtot 36
+; residue 3192 MG  rtp MG   q +2.0
+    19         MG   3192     MG     MG     19          2     24.305   ; qtot 38
+; residue 3244 MG  rtp MG   q +2.0
+    20         MG   3244     MG     MG     20          2     24.305   ; qtot 40
+; residue 3270 MG  rtp MG   q +2.0
+    21         MG   3270     MG     MG     21          2     24.305   ; qtot 42
+; residue 3401 MG  rtp MG   q +2.0
+    22         MG   3401     MG     MG     22          2     24.305   ; qtot 44
+; residue 3011 MG  rtp MG   q +2.0
+    23         MG   3011     MG     MG     23          2     24.305   ; qtot 46
+; residue 3037 MG  rtp MG   q +2.0
+    24         MG   3037     MG     MG     24          2     24.305   ; qtot 48
+; residue 3063 MG  rtp MG   q +2.0
+    25         MG   3063     MG     MG     25          2     24.305   ; qtot 50
+; residue 3089 MG  rtp MG   q +2.0
+    26         MG   3089     MG     MG     26          2     24.305   ; qtot 52
+; residue 3115 MG  rtp MG   q +2.0
+    27         MG   3115     MG     MG     27          2     24.305   ; qtot 54
+; residue 3193 MG  rtp MG   q +2.0
+    28         MG   3193     MG     MG     28          2     24.305   ; qtot 56
+; residue 3245 MG  rtp MG   q +2.0
+    29         MG   3245     MG     MG     29          2     24.305   ; qtot 58
+; residue 3402 MG  rtp MG   q +2.0
+    30         MG   3402     MG     MG     30          2     24.305   ; qtot 60
+; residue 3064 MG  rtp MG   q +2.0
+    31         MG   3064     MG     MG     31          2     24.305   ; qtot 62
+; residue 3090 MG  rtp MG   q +2.0
+    32         MG   3090     MG     MG     32          2     24.305   ; qtot 64
+; residue 3116 MG  rtp MG   q +2.0
+    33         MG   3116     MG     MG     33          2     24.305   ; qtot 66
+; residue 3142 MG  rtp MG   q +2.0
+    34         MG   3142     MG     MG     34          2     24.305   ; qtot 68
+; residue 3194 MG  rtp MG   q +2.0
+    35         MG   3194     MG     MG     35          2     24.305   ; qtot 70
+; residue 3220 MG  rtp MG   q +2.0
+    36         MG   3220     MG     MG     36          2     24.305   ; qtot 72
+; residue 3246 MG  rtp MG   q +2.0
+    37         MG   3246     MG     MG     37          2     24.305   ; qtot 74
+; residue 3403 MG  rtp MG   q +2.0
+    38         MG   3403     MG     MG     38          2     24.305   ; qtot 76
+; residue 3065 MG  rtp MG   q +2.0
+    39         MG   3065     MG     MG     39          2     24.305   ; qtot 78
+; residue 3117 MG  rtp MG   q +2.0
+    40         MG   3117     MG     MG     40          2     24.305   ; qtot 80
+; residue 3143 MG  rtp MG   q +2.0
+    41         MG   3143     MG     MG     41          2     24.305   ; qtot 82
+; residue 3195 MG  rtp MG   q +2.0
+    42         MG   3195     MG     MG     42          2     24.305   ; qtot 84
+; residue 3247 MG  rtp MG   q +2.0
+    43         MG   3247     MG     MG     43          2     24.305   ; qtot 86
+; residue 3404 MG  rtp MG   q +2.0
+    44         MG   3404     MG     MG     44          2     24.305   ; qtot 88
+; residue 3014 MG  rtp MG   q +2.0
+    45         MG   3014     MG     MG     45          2     24.305   ; qtot 90
+; residue 3066 MG  rtp MG   q +2.0
+    46         MG   3066     MG     MG     46          2     24.305   ; qtot 92
+; residue 3092 MG  rtp MG   q +2.0
+    47         MG   3092     MG     MG     47          2     24.305   ; qtot 94
+; residue 3118 MG  rtp MG   q +2.0
+    48         MG   3118     MG     MG     48          2     24.305   ; qtot 96
+; residue 3405 MG  rtp MG   q +2.0
+    49         MG   3405     MG     MG     49          2     24.305   ; qtot 98
+; residue 3067 MG  rtp MG   q +2.0
+    50         MG   3067     MG     MG     50          2     24.305   ; qtot 100
+; residue 3119 MG  rtp MG   q +2.0
+    51         MG   3119     MG     MG     51          2     24.305   ; qtot 102
+; residue 3145 MG  rtp MG   q +2.0
+    52         MG   3145     MG     MG     52          2     24.305   ; qtot 104
+; residue 3223 MG  rtp MG   q +2.0
+    53         MG   3223     MG     MG     53          2     24.305   ; qtot 106
+; residue 3275 MG  rtp MG   q +2.0
+    54         MG   3275     MG     MG     54          2     24.305   ; qtot 108
+; residue 3068 MG  rtp MG   q +2.0
+    55         MG   3068     MG     MG     55          2     24.305   ; qtot 110
+; residue 3094 MG  rtp MG   q +2.0
+    56         MG   3094     MG     MG     56          2     24.305   ; qtot 112
+; residue 3146 MG  rtp MG   q +2.0
+    57         MG   3146     MG     MG     57          2     24.305   ; qtot 114
+; residue 3276 MG  rtp MG   q +2.0
+    58         MG   3276     MG     MG     58          2     24.305   ; qtot 116
+; residue 3277 MG  rtp MG   q +2.0
+    59         MG   3277     MG     MG     59          2     24.305   ; qtot 118
+; residue 3018 MG  rtp MG   q +2.0
+    60         MG   3018     MG     MG     60          2     24.305   ; qtot 120
+; residue 3122 MG  rtp MG   q +2.0
+    61         MG   3122     MG     MG     61          2     24.305   ; qtot 122
+; residue 3148 MG  rtp MG   q +2.0
+    62         MG   3148     MG     MG     62          2     24.305   ; qtot 124
+; residue 3019 MG  rtp MG   q +2.0
+    63         MG   3019     MG     MG     63          2     24.305   ; qtot 126
+; residue 3097 MG  rtp MG   q +2.0
+    64         MG   3097     MG     MG     64          2     24.305   ; qtot 128
+; residue 3123 MG  rtp MG   q +2.0
+    65         MG   3123     MG     MG     65          2     24.305   ; qtot 130
+; residue 3149 MG  rtp MG   q +2.0
+    66         MG   3149     MG     MG     66          2     24.305   ; qtot 132
+; residue 3020 MG  rtp MG   q +2.0
+    67         MG   3020     MG     MG     67          2     24.305   ; qtot 134
+; residue 3046 MG  rtp MG   q +2.0
+    68         MG   3046     MG     MG     68          2     24.305   ; qtot 136
+; residue 3072 MG  rtp MG   q +2.0
+    69         MG   3072     MG     MG     69          2     24.305   ; qtot 138
+; residue 3124 MG  rtp MG   q +2.0
+    70         MG   3124     MG     MG     70          2     24.305   ; qtot 140
+; residue 3202 MG  rtp MG   q +2.0
+    71         MG   3202     MG     MG     71          2     24.305   ; qtot 142
+; residue 3021 MG  rtp MG   q +2.0
+    72         MG   3021     MG     MG     72          2     24.305   ; qtot 144
+; residue 3047 MG  rtp MG   q +2.0
+    73         MG   3047     MG     MG     73          2     24.305   ; qtot 146
+; residue 3073 MG  rtp MG   q +2.0
+    74         MG   3073     MG     MG     74          2     24.305   ; qtot 148
+; residue 3099 MG  rtp MG   q +2.0
+    75         MG   3099     MG     MG     75          2     24.305   ; qtot 150
+; residue 3125 MG  rtp MG   q +2.0
+    76         MG   3125     MG     MG     76          2     24.305   ; qtot 152
+; residue 3151 MG  rtp MG   q +2.0
+    77         MG   3151     MG     MG     77          2     24.305   ; qtot 154
+; residue 3203 MG  rtp MG   q +2.0
+    78         MG   3203     MG     MG     78          2     24.305   ; qtot 156
+; residue 3334 MG  rtp MG   q +2.0
+    79         MG   3334     MG     MG     79          2     24.305   ; qtot 158
+; residue 3386 MG  rtp MG   q +2.0
+    80         MG   3386     MG     MG     80          2     24.305   ; qtot 160
+; residue 3048 MG  rtp MG   q +2.0
+    81         MG   3048     MG     MG     81          2     24.305   ; qtot 162
+; residue 3074 MG  rtp MG   q +2.0
+    82         MG   3074     MG     MG     82          2     24.305   ; qtot 164
+; residue 3100 MG  rtp MG   q +2.0
+    83         MG   3100     MG     MG     83          2     24.305   ; qtot 166
+; residue 3126 MG  rtp MG   q +2.0
+    84         MG   3126     MG     MG     84          2     24.305   ; qtot 168
+; residue 3152 MG  rtp MG   q +2.0
+    85         MG   3152     MG     MG     85          2     24.305   ; qtot 170
+; residue 3204 MG  rtp MG   q +2.0
+    86         MG   3204     MG     MG     86          2     24.305   ; qtot 172
+; residue 101 MG  rtp MG   q +2.0
+    87         MG    101     MG     MG     87          2     24.305   ; qtot 174
+; residue 3023 MG  rtp MG   q +2.0
+    88         MG   3023     MG     MG     88          2     24.305   ; qtot 176
+; residue 3049 MG  rtp MG   q +2.0
+    89         MG   3049     MG     MG     89          2     24.305   ; qtot 178
+; residue 3075 MG  rtp MG   q +2.0
+    90         MG   3075     MG     MG     90          2     24.305   ; qtot 180
+; residue 3127 MG  rtp MG   q +2.0
+    91         MG   3127     MG     MG     91          2     24.305   ; qtot 182
+; residue 3309 MG  rtp MG   q +2.0
+    92         MG   3309     MG     MG     92          2     24.305   ; qtot 184
+; residue 3388 MG  rtp MG   q +2.0
+    93         MG   3388     MG     MG     93          2     24.305   ; qtot 186
+; residue 3050 MG  rtp MG   q +2.0
+    94         MG   3050     MG     MG     94          2     24.305   ; qtot 188
+; residue 3076 MG  rtp MG   q +2.0
+    95         MG   3076     MG     MG     95          2     24.305   ; qtot 190
+; residue 3102 MG  rtp MG   q +2.0
+    96         MG   3102     MG     MG     96          2     24.305   ; qtot 192
+; residue 3206 MG  rtp MG   q +2.0
+    97         MG   3206     MG     MG     97          2     24.305   ; qtot 194
+; residue 3389 MG  rtp MG   q +2.0
+    98         MG   3389     MG     MG     98          2     24.305   ; qtot 196
+; residue 101 MG  rtp MG   q +2.0
+    99         MG    101     MG     MG     99          2     24.305   ; qtot 198
+; residue 3025 MG  rtp MG   q +2.0
+   100         MG   3025     MG     MG    100          2     24.305   ; qtot 200
+; residue 3077 MG  rtp MG   q +2.0
+   101         MG   3077     MG     MG    101          2     24.305   ; qtot 202
+; residue 3129 MG  rtp MG   q +2.0
+   102         MG   3129     MG     MG    102          2     24.305   ; qtot 204
+; residue 3207 MG  rtp MG   q +2.0
+   103         MG   3207     MG     MG    103          2     24.305   ; qtot 206
+; residue 3311 MG  rtp MG   q +2.0
+   104         MG   3311     MG     MG    104          2     24.305   ; qtot 208
+; residue 3026 MG  rtp MG   q +2.0
+   105         MG   3026     MG     MG    105          2     24.305   ; qtot 210
+; residue 3052 MG  rtp MG   q +2.0
+   106         MG   3052     MG     MG    106          2     24.305   ; qtot 212
+; residue 3078 MG  rtp MG   q +2.0
+   107         MG   3078     MG     MG    107          2     24.305   ; qtot 214
+; residue 3208 MG  rtp MG   q +2.0
+   108         MG   3208     MG     MG    108          2     24.305   ; qtot 216
+; residue 3286 MG  rtp MG   q +2.0
+   109         MG   3286     MG     MG    109          2     24.305   ; qtot 218
+; residue 3312 MG  rtp MG   q +2.0
+   110         MG   3312     MG     MG    110          2     24.305   ; qtot 220
+; residue 3001 MG  rtp MG   q +2.0
+   111         MG   3001     MG     MG    111          2     24.305   ; qtot 222
+; residue 3053 MG  rtp MG   q +2.0
+   112         MG   3053     MG     MG    112          2     24.305   ; qtot 224
+; residue 3079 MG  rtp MG   q +2.0
+   113         MG   3079     MG     MG    113          2     24.305   ; qtot 226
+; residue 3287 MG  rtp MG   q +2.0
+   114         MG   3287     MG     MG    114          2     24.305   ; qtot 228
+; residue 3054 MG  rtp MG   q +2.0
+   115         MG   3054     MG     MG    115          2     24.305   ; qtot 230
+; residue 3106 MG  rtp MG   q +2.0
+   116         MG   3106     MG     MG    116          2     24.305   ; qtot 232
+; residue 3314 MG  rtp MG   q +2.0
+   117         MG   3314     MG     MG    117          2     24.305   ; qtot 234
+; residue 3341 MG  rtp MG   q +2.0
+   118         MG   3341     MG     MG    118          2     24.305   ; qtot 236
+; residue 3393 MG  rtp MG   q +2.0
+   119         MG   3393     MG     MG    119          2     24.305   ; qtot 238
+; residue 3003 MG  rtp MG   q +2.0
+   120         MG   3003     MG     MG    120          2     24.305   ; qtot 240
+; residue 3029 MG  rtp MG   q +2.0
+   121         MG   3029     MG     MG    121          2     24.305   ; qtot 242
+; residue 3055 MG  rtp MG   q +2.0
+   122         MG   3055     MG     MG    122          2     24.305   ; qtot 244
+; residue 3081 MG  rtp MG   q +2.0
+   123         MG   3081     MG     MG    123          2     24.305   ; qtot 246
+; residue 3159 MG  rtp MG   q +2.0
+   124         MG   3159     MG     MG    124          2     24.305   ; qtot 248
+; residue 3237 MG  rtp MG   q +2.0
+   125         MG   3237     MG     MG    125          2     24.305   ; qtot 250
+; residue 3289 MG  rtp MG   q +2.0
+   126         MG   3289     MG     MG    126          2     24.305   ; qtot 252
+; residue 3315 MG  rtp MG   q +2.0
+   127         MG   3315     MG     MG    127          2     24.305   ; qtot 254
+; residue 3394 MG  rtp MG   q +2.0
+   128         MG   3394     MG     MG    128          2     24.305   ; qtot 256
+; residue 3004 MG  rtp MG   q +2.0
+   129         MG   3004     MG     MG    129          2     24.305   ; qtot 258
+; residue 3082 MG  rtp MG   q +2.0
+   130         MG   3082     MG     MG    130          2     24.305   ; qtot 260
+; residue 3108 MG  rtp MG   q +2.0
+   131         MG   3108     MG     MG    131          2     24.305   ; qtot 262
+; residue 3264 MG  rtp MG   q +2.0
+   132         MG   3264     MG     MG    132          2     24.305   ; qtot 264
+; residue 3290 MG  rtp MG   q +2.0
+   133         MG   3290     MG     MG    133          2     24.305   ; qtot 266
+; residue 3316 MG  rtp MG   q +2.0
+   134         MG   3316     MG     MG    134          2     24.305   ; qtot 268
+; residue 3395 MG  rtp MG   q +2.0
+   135         MG   3395     MG     MG    135          2     24.305   ; qtot 270
+; residue 3057 MG  rtp MG   q +2.0
+   136         MG   3057     MG     MG    136          2     24.305   ; qtot 272
+; residue 3083 MG  rtp MG   q +2.0
+   137         MG   3083     MG     MG    137          2     24.305   ; qtot 274
+; residue 3109 MG  rtp MG   q +2.0
+   138         MG   3109     MG     MG    138          2     24.305   ; qtot 276
+; residue 3135 MG  rtp MG   q +2.0
+   139         MG   3135     MG     MG    139          2     24.305   ; qtot 278
+; residue 3239 MG  rtp MG   q +2.0
+   140         MG   3239     MG     MG    140          2     24.305   ; qtot 280
+; residue 3265 MG  rtp MG   q +2.0
+   141         MG   3265     MG     MG    141          2     24.305   ; qtot 282
+; residue 3370 MG  rtp MG   q +2.0
+   142         MG   3370     MG     MG    142          2     24.305   ; qtot 284
+; residue 301 MG  rtp MG   q +2.0
+   143         MG    301     MG     MG    143          2     24.305   ; qtot 286
+; residue 3006 MG  rtp MG   q +2.0
+   144         MG   3006     MG     MG    144          2     24.305   ; qtot 288
+; residue 3058 MG  rtp MG   q +2.0
+   145         MG   3058     MG     MG    145          2     24.305   ; qtot 290
+; residue 3110 MG  rtp MG   q +2.0
+   146         MG   3110     MG     MG    146          2     24.305   ; qtot 292
+; residue 3136 MG  rtp MG   q +2.0
+   147         MG   3136     MG     MG    147          2     24.305   ; qtot 294
+; residue 3240 MG  rtp MG   q +2.0
+   148         MG   3240     MG     MG    148          2     24.305   ; qtot 296
+; residue 3292 MG  rtp MG   q +2.0
+   149         MG   3292     MG     MG    149          2     24.305   ; qtot 298
+; residue 3007 MG  rtp MG   q +2.0
+   150         MG   3007     MG     MG    150          2     24.305   ; qtot 300
+; residue 3085 MG  rtp MG   q +2.0
+   151         MG   3085     MG     MG    151          2     24.305   ; qtot 302
+; residue 3111 MG  rtp MG   q +2.0
+   152         MG   3111     MG     MG    152          2     24.305   ; qtot 304
+; residue 3137 MG  rtp MG   q +2.0
+   153         MG   3137     MG     MG    153          2     24.305   ; qtot 306
+; residue 3267 MG  rtp MG   q +2.0
+   154         MG   3267     MG     MG    154          2     24.305   ; qtot 308
+; residue 3293 MG  rtp MG   q +2.0
+   155         MG   3293     MG     MG    155          2     24.305   ; qtot 310
+; residue 3398 MG  rtp MG   q +2.0
+   156         MG   3398     MG     MG    156          2     24.305   ; qtot 312
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion_chain_X.itp"
+#endif
+

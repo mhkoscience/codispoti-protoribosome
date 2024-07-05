@@ -1,0 +1,30 @@
+Ribosome force field.
+
+Prepared for 5AFI model (70S+P/tRNA processed correctly by pdb2gmx and grompp
+5.0.7)
+
+Contains:
+- amber12sb amino acids
+- amber12sb inverted amino acids for nascent peptide
+- amber12sb nucleotides (no update since ff10)
+- uncommon nucleotides prepared from Aduri's 2007 nucleobases and amber99sb
+sugars and phosphates
+- terminal nucleotides with 5'-phosphate (RX5P)
+- Joung and Cheatham 2008 potasium KJ and chloride ClJ
+- SPC/E water
+
+Use:
+- copy amberRibo.ff to the working directory
+- move residuetypes.dat to one level higher
+
+Known (possible) issues:
+- phosphates on terminal nucleotides are all de-protonated
+- only two vsite types (MCH3, MNH3), instead of having separate types
+for each of M-C-X pattern
+- backbone torsion angle in modified nucleotides do not correspond 
+to the torsions in standard nucleotides
+
+Prepared by MHK on Wed Apr  6 17:11:56 CEST 2016 from:
+/home/mkolar/W/EXTU/FORCEFIELDS/MODIFIED/amber12sb_inv.ff
+/home/mkolar/W/EXTU/FORCEFIELDS/MODIFIED/../amber12sb.ff
+/home/mkolar/W/EXTU/FORCEFIELDS/MODIFIED/_scripts/ADURI

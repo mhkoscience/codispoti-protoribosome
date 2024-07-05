@@ -1,0 +1,52 @@
+;
+;	File 'topol.top' was generated
+;	By user: unknown (1000)
+;	On host: datel
+;	At date: Mon Oct 30 17:36:37 2023
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2019.6 (-:
+;	
+;	Executable:   /home/mhk/Programs/gromacs/gromacs-2019.6/gcc-9.3/bin/gmx
+;	Data prefix:  /home/mhk/Programs/gromacs/gromacs-2019.6/gcc-9.3
+;	Working dir:  /home/mhk/W/STUDENTS/MARTIN/PTC-SMALL-FIX-L4/BUILD
+;	Command line:
+;	  gmx pdb2gmx -f /home/mhk/W/STUDENTS/MARTIN/PTC-SMALL-FIX-L4/INPUT/PTC_cut_novs.pdb -o /home/mhk/W/STUDENTS/MARTIN/PTC-SMALL-FIX-L4/BUILD/PTC_pdb2gmx.pdb -water spce -ff amberRibo -vsite hydrogens -ignh
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./amberRibo.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_RNA_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+#include "topol_Ion_chain_X.itp"
+
+; Include water topology
+#include "./amberRibo.ff/spce.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "./amberRibo.ff/ions.itp"
+
+[ system ]
+; Name
+Good ROcking Metal Altar for Chronical Sinners in water
+
+[ molecules ]
+; Compound        #mols
+RNA_chain_A         1
+Protein_chain_B     1
+Ion_chain_X         1
+SOL         40843
+KJ               153
+ClJ              118

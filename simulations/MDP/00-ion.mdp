@@ -1,0 +1,15 @@
+integrator          =  md
+pbc                 =  xyz
+nsteps              =  1
+nstxout             =  0
+nstlog              =  1
+nstenergy           =  1
+nstlist             =  5
+ns_type             =  grid
+coulombtype         =  PME
+cutoff-scheme       =  verlet
+vdwtype             =  cut-off
+rlist               =  1.00
+rvdw                =  1.00
+rcoulomb            =  1.00
+

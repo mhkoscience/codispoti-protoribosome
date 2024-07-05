@@ -1,0 +1,50 @@
+;
+;	File 'topol.top' was generated
+;	By user: maseki (1008)
+;	On host: anning
+;	At date: Sun Jun 11 23:52:49 2023
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2019.6 (-:
+;	
+;	Executable:   /usr/local/programs/gromacs/gromacs-2019.6/gcc-9.3-cuda-11.4/bin/gmx
+;	Data prefix:  /usr/local/programs/gromacs/gromacs-2019.6/gcc-9.3-cuda-11.4
+;	Working dir:  /work/maseki/PTCecka/PTC_large_no_peptides/BUILD
+;	Command line:
+;	  gmx pdb2gmx -f /work/maseki/PTCecka/PTC_large_no_peptides/PTC_large_no_rPeptides.pdb -o /work/maseki/PTCecka/PTC_large_no_peptides/BUILD/PTC_large_pdb2gmx.pdb -water spce -ff amberRibo -vsite hydrogens -ignh
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./amberRibo.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_RNA_chain_F.itp"
+#include "topol_Ion_chain_X.itp"
+
+; Include water topology
+#include "./amberRibo.ff/spce.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "./amberRibo.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+RNA_chain_F         1
+Ion_chain_X         1
+SOL         114730
+KJ               635
+ClJ              338
